@@ -78,14 +78,14 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
-      },
-      {
-        test: /\.worker\.js$/,
-        loader: 'worker-loader',
-        options: {
-          inline: true
-        }
       }
+      // {
+      //   test: /\.worker\.js$/,
+      //   loader: 'worker-loader',
+      //   options: {
+      //     inline: true
+      //   }
+      // }
     ]
   },
   node: {
